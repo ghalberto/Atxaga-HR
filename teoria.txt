@@ -1,0 +1,23 @@
+Estados de Git:
+
+U: Untracked
+A: Added
+M: Modified
+
+Commandos Git:
+
+git init => Inicializa un repositorio de Git.
+git add index.php => Añade el archivo 'index.php' al seguimiento de Git.
+git add . => Añade todos los archivos al seguimiento de Git.
+git commit -m "Commit 001: Creación inicial del proyecto y configuración de Git." => Confirma los cambios.
+git log => Visualizar el histórico de las confirmaciones (commits).
+git log --oneline => Visualizar el histórico de las confirmaciones (commits) en vista resumida.
+git status => Para ver el estado actual de mis archivos.
+git push origin master => Para subir los cambios locales al repositorio remoto.
+
+Node:
+
+npm init -y => Inicializa un nuevo proyecto de Node.
+npm i webpack -D => Instala el paquete 'Webpack', en modo de desarrollo.
+npm run dev => Inicia Webpack en modo de desarrollo.
+npm run build => Inicia Webpack en modo de producción.

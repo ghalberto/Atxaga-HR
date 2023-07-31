@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Positions Management</title>
+        {{> partials/_staticCSS }}
+    </head>
+    <body>
+        {{> partials/_navbar }}
+        <div class="container my-4">
+            <div class="row">
+                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                    
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-9 col-xl-9">
+                    <div class="table-responsive">
+                        {{> partials/position/_positionsTable.hbs }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{> partials/_staticJS }}
+    </body>
+</html>

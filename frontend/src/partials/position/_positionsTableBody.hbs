@@ -1,0 +1,12 @@
+{{#each positions}}
+    <tr>
+        <td>{{@index}}</td>
+        <td>{{this.name}}</td>
+        <td>$ {{this.basicHourlyPay}}</td>
+        {{#if this.active}}
+            <td style="color: green;"><i class="fa-solid fa-circle-check"></i></td>
+        {{else}}
+            <td class="red"><i class="fa-solid fa-circle-xmark"></i></td>
+        {{/if}}
+    </tr>
+{{/each}}
